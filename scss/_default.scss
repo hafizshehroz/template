@@ -1,0 +1,31 @@
+*{
+    color: $black;
+    font-family: $font_primary;
+    font-weight: 300;
+}
+
+.mt-100{
+    margin-top: 100px;
+}
+
+h3{
+    font-size: $headindFontSize;
+    color: $black;
+    font-family: $font_primary;
+    font-weight: 300;
+    
+}
+p{
+    font-size: $textFontSize;
+    color: $black;
+}
+.h-250{
+    height: 250px;
+}
+.orange-bg{
+    background-color: $orange;
+}
+
+::placeholder{
+    color: gray !important;
+}

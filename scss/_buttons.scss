@@ -1,0 +1,21 @@
+.button-default{
+    
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: $white;
+    
+}
+.green-btn,
+.green-btn:hover{
+    @extend .button-default;
+    background-color: $green;
+
+}
+
+.orange-btn,
+.orange-btn:hover{
+    @extend .button-default;
+    background-color: $orange;
+
+}

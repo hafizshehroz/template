@@ -1,0 +1,33 @@
+.advance-solution-logo{
+    background: url(../images/advance-solution-logo.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 220%;
+    height: 516px;
+    width: 100%;
+    border-radius: 50px;
+}
+.accordion-item{
+    border: none;
+}
+.accordion-button{
+    color: $green;
+    font-weight: bold;
+
+}
+.accordion-button:focus{
+    box-shadow: none;
+    color: $green;
+}
+.accordion-button:not(.collapsed){
+    background-color: unset;
+}
+.accordion-button::after{
+    background-color: $orange;
+    color: $white;
+    // filter: invert(50%);
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
+    border-radius: 10px;
+    background-size: 77%;
+    background-position: center center;
+}
